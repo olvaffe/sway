@@ -520,6 +520,7 @@ static void view_populate_pid(struct sway_view *view) {
 		break;
 #endif
 	case SWAY_VIEW_XDG_SHELL:;
+	case SWAY_VIEW_XDG_SHELL_V6:;
 		struct wl_client *client =
 			wl_resource_get_client(view->surface->resource);
 		wl_client_get_credentials(client, &pid, NULL, NULL);
