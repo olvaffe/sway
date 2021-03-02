@@ -12,6 +12,7 @@ endif
 
 protocols = [
 	[wl_protocol_dir, 'stable/xdg-shell/xdg-shell.xml'],
+	[wl_protocol_dir, 'unstable/xdg-shell/xdg-shell-unstable-v6.xml'],
 	[wl_protocol_dir, 'unstable/xdg-output/xdg-output-unstable-v1.xml'],
 	[wl_protocol_dir, 'unstable/pointer-constraints/pointer-constraints-unstable-v1.xml'],
 	[wl_protocol_dir, 'unstable/tablet/tablet-unstable-v2.xml'],
